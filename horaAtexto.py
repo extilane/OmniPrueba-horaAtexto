@@ -38,7 +38,7 @@ def extraccionConversion(hora):
     Argumentos:
     hora -- Debe ser un string con el siguiete formato [horas]:[minutos][am/pm]
     Salida:
-    Es una lista con 3 elementos el 0 es la hora, el 1 son los minutos y tercero son el AM o PM.
+    Es una lista con 3 elementos el 0 es la hora, el 1 son los minutos y 2 son el AM o PM.
     """    
     registros = re.search(formatoRE, hora)
     return [int(registros.group(1)),int(registros.group(2)),registros.group(3)]
@@ -66,7 +66,7 @@ def constructorOraciones(hora, minuto, momento):
         return "Son las "+distNum[hora]+" y "+distNum[minuto]+" de la " + horario(hora,momento)
     
 def horaTexto(hora):
-    """Es la funcion principal del programa donde se valida, se parsea y se transforma la hora en redaccion.
+    """Es la funcion principal del programa donde se valida, se le realiza un parse y se transforma la hora en redaccion.
     Argumentos:
     hora -- Debe ser un string con el formato [horas]:[minutos][am/pm]
     Salida:
