@@ -2,7 +2,7 @@
 # Prueba tecnica para proceso de reclutamiento en Omni
 #
 # 2021 Guillermo Alonso Avila Chaves, Alajuela, Costa Rica
-# email gach151195@gmail.com
+# email: gach151195@gmail.com
 # -----------------------------------------------------------
 
 import re
