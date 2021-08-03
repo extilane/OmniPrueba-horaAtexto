@@ -13,6 +13,8 @@ def validacionHora(hora):
     """ Funcion que valida el formato deseado [horas]:[minutos][am/pm]
     Argumentos:
     hora -- Debe ser un string con el formato [horas]:[minutos][am/pm]
+    Salida:
+    Un True si cumple el formato esperado de 12 horas y un false si no cumple el formato.
     """
     return bool(re.match(formatoRE, hora))
 
@@ -21,6 +23,8 @@ def horario(hora, momento):
     Argumentos:
     hora -- Debe ser un int de 1 hasta 12
     momento -- Debe ser string AM o PM
+    Salida:
+    La palabra tarde, noche o mañana.
     """
     if ((hora <= 6 and hora >= 1) or hora == 12) and momento == "PM":
         return "tarde"
