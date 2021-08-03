@@ -3,10 +3,10 @@
 # Reducir la cantidad de lineas del codigo principal.
 # -----------------------------------------------------------
 
-#definicion de formato de hora especifico
+#definición de formato de hora especifico
 formatoRE="^(1[0-2]|0?[1-9]):([0-5]?[0-9])(AM|PM)$"
 
-#definicion general del diccionario de numeros a letras
+#definición general del diccionario de numeros a letras
 distNum = {
     0: "en punto", 1: "una", 2: "dos",
     3: "tres", 4: "cuatro", 5: "cinco",
