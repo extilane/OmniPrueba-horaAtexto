@@ -8,8 +8,8 @@ Prerrequisitos:
 
 Para ejecutar el programa de Python se debe acceder desde el cmd (windows) o la terminal(linux) a la carpeta o fichero donde se descargo el repositorio de github, luego de eso se debe ejecutar el comando 
 
--python horaAtexto.py [horas]:[minutos][am/pm]
+"python horaAtexto.py [horas]:[minutos][am/pm]"
 
--python3 horaAtexto.py [horas]:[minutos][am/pm]
+"python3 horaAtexto.py [horas]:[minutos][am/pm]"
 
--La ejecución de ejemplo: python horaAtexto.py 12:15PM
+-La ejecución de ejemplo: "python horaAtexto.py 12:15PM"
