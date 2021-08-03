@@ -13,4 +13,4 @@ python horaAtexto.py [horas]:[minutos][am/pm]
 
 python3 horaAtexto.py [horas]:[minutos][am/pm]
 ```
--La ejecución de ejemplo: "python horaAtexto.py 12:15PM"
+-La ejecución de ejemplo: `python horaAtexto.py 12:15PM`
